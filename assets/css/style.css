@@ -25,19 +25,17 @@ header{
     font-weight: bolder;  
 }
 
-main{
-    background-color: #f6f8f9;
-    margin: auto;
-    display: flex;
+body{
+    background-color: lightgrey;
 }
 
 .container{
     background: white;
     width:60%;
-    border-radius: 3%;
-    margin-left: auto;
-    margin-right: auto;
+    height:90%;
+    margin: auto;
     margin-top: 30px;
+    border-radius: 13px;
     padding-top: 40px;
 }
 
@@ -47,7 +45,7 @@ padding: 0 40px;
 }
 
 #add-task, #add-section{
-    border-radius: 9%;
+    border-radius: 20px;
     padding: 10px 10px;
 }
 
@@ -79,6 +77,7 @@ padding: 0 40px;
 .title{
     font-size: 20px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 ul{
@@ -97,11 +96,12 @@ ul{
 
 .done{
  min-width: 30px;
+ padding: 20px 0;
 }
 
 .buttonz{
 color: white;
-border-radius: 25%;
+border-radius: 20px;
 padding: 5px 7px;
 font-size: 0.7rem;
 }
