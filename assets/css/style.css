@@ -96,7 +96,7 @@ ul{
 
 .done{
  min-width: 30px;
- padding: 20px 0;
+ padding: 10px 0;
 }
 
 .buttonz{
@@ -108,4 +108,38 @@ font-size: 0.7rem;
 
 .editorial{
     background-color: #47adf1;
+}
+
+.q1goals{
+    background-color: violet;
+}
+
+.undone{
+    padding: 10px 0;
+}
+.undone::before{
+    content: "\2717";
+    color: red;
+    font-size: 12px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.recruiting{
+    background-color: greenyellow;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: fuchsia;
+}
+
+.sales{
+    background-color: green;
 }
